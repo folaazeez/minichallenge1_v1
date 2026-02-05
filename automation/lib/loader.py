@@ -1,4 +1,5 @@
 import yaml
+import sys
 
 yaml_file = sys.argv[1] if len(sys.argv) > 1 else "values.yaml"
 
