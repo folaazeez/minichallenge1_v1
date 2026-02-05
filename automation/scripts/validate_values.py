@@ -1,6 +1,4 @@
-
 import sys
-from lib.fail import fail
 from lib.loader import load_yaml
 from lib.validators import validate_environment
 
