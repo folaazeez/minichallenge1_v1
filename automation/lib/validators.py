@@ -11,4 +11,3 @@ def validate_environment(values: dict) -> None:
 
     if env == "prod" and replicas < 3:
         fail("prod requires at least 3 replicas")
-        sys.exit(1)
